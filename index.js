@@ -13,7 +13,7 @@ var theFacts = ["He was the last Beatle to learn to drive", "He was never a vege
 function johnLennonFacts (array){
   var johnLennonFacts = [];
   var i = 0;
-  while (i <= theFacts.length-1) {
+  while (i <= 3) {
     johnLennonFacts.push(theFacts[i] + "!!!");
   } return johnLennonFacts;
 }
